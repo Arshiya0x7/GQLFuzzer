@@ -35,11 +35,11 @@ python graphql_fuzzer.py -u https://target.com/graphql -w wordlist.txt
 ## Parameters
 
 ```bash
-Parameter	      Description	                  
--u, --url	      Target GraphQL endpoint URL
--w, --wordlist	Path to wordlist file	 
--c, --count	    Number of words per request (Default: 200)
--o, --output	  Output file to save results
+Parameter                  
+-u, --url  Target GraphQL endpoint URL
+-w, --wordlist  Path to wordlist file	 
+-c, --count  Number of words per request (Default: 200)
+-o, --output  Output file to save results
 ```
 
 ## Example
