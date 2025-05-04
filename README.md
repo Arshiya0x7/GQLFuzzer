@@ -1,6 +1,6 @@
 # GraphQL Wordlist Fuzzer
 
-A powerful tool for discovering GraphQL endpoints and fields through wordlist-based fuzzing.
+A tool for discovering GraphQL endpoints and fields through wordlist-based fuzzing.
 
 [![asciicast](https://asciinema.org/a/sCWJ8iZib5xXvDFXXkRa2O2NI.svg)](https://asciinema.org/a/sCWJ8iZib5xXvDFXXkRa2O2NI)
 
