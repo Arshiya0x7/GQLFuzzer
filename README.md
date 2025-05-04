@@ -48,26 +48,4 @@ python graphql_fuzzer.py -u https://api.example.com/graphql -w ./wordlists/graph
 
 ## Contribution
 
-We welcome contributions to improve this tool! Some potential enhancements:
-
-    Add support for mutations and subscriptions
-
-    Implement rate limiting handling
-
-    Add proxy support
-
-    Improve wordlist generation
-
-    Add more sophisticated error detection
-
-To contribute:
-
-    Fork the repository
-
-    Create your feature branch
-
-    Commit your changes
-
-    Push to the branch
-
-    Open a pull request
+We welcome contributions to improve this tool!
