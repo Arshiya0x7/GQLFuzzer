@@ -2,6 +2,8 @@
 
 A powerful tool for discovering GraphQL endpoints and fields through wordlist-based fuzzing.
 
+[![asciicast](https://asciinema.org/a/sCWJ8iZib5xXvDFXXkRa2O2NI.svg)](https://asciinema.org/a/sCWJ8iZib5xXvDFXXkRa2O2NI)
+
 ## Description
 
 This script performs brute-force discovery of GraphQL fields and operations by:
