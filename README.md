@@ -42,6 +42,7 @@ Parameter
 -w, --wordlist  Path to wordlist file	 
 -c, --count  Number of words per request (Default: 200)
 -o, --output  Output file to save results
+-H HEADER, --header HEADER  Add custom header to requests (e.g., "Authorization: Bearer token")
 ```
 
 ## Example
