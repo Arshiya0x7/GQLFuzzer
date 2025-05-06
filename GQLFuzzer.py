@@ -9,6 +9,27 @@ from colorama import init, Fore, Back, Style
 # Initialize colorama
 init(autoreset=True)
 
+def display_logo():
+    logo = """
+                                                                                            
+  ▄████   █████   ██▓      █████▒█    ██ ▒███████▒▒███████▒▓█████  ██▀███  
+ ██▒ ▀█▒▒██▓  ██▒▓██▒    ▓██   ▒ ██  ▓██▒▒ ▒ ▒ ▄▀░▒ ▒ ▒ ▄▀░▓█   ▀ ▓██ ▒ ██▒
+▒██░▄▄▄░▒██▒  ██░▒██░    ▒████ ░▓██  ▒██░░ ▒ ▄▀▒░ ░ ▒ ▄▀▒░ ▒███   ▓██ ░▄█ ▒
+░▓█  ██▓░██  █▀ ░▒██░    ░▓█▒  ░▓▓█  ░██░  ▄▀▒   ░  ▄▀▒   ░▒▓█  ▄ ▒██▀▀█▄  
+░▒▓███▀▒░▒███▒█▄ ░██████▒░▒█░   ▒▒█████▓ ▒███████▒▒███████▒░▒████▒░██▓ ▒██▒
+ ░▒   ▒ ░░ ▒▒░ ▒ ░ ▒░▓  ░ ▒ ░   ░▒▓▒ ▒ ▒ ░▒▒ ▓░▒░▒░▒▒ ▓░▒░▒░░ ▒░ ░░ ▒▓ ░▒▓░
+  ░   ░  ░ ▒░  ░ ░ ░ ▒  ░ ░     ░░▒░ ░ ░ ░░▒ ▒ ░ ▒░░▒ ▒ ░ ▒ ░ ░  ░  ░▒ ░ ▒░
+░ ░   ░    ░   ░   ░ ░    ░ ░    ░░░ ░ ░ ░ ░ ░ ░ ░░ ░ ░ ░ ░   ░     ░░   ░ 
+      ░     ░        ░  ░          ░       ░ ░      ░ ░       ░  ░   ░     
+                                         ░        ░                        
+
+                                                                                               
+╔══════════════════════════════╗
+║         Arshiya 1.0          ║
+╚══════════════════════════════╝
+    """
+    print(logo)
+
 def extract_keywords(message):
     """Extract keywords from error messages"""
     keywords = []
@@ -55,6 +76,7 @@ def parse_header(header_string):
         sys.exit(1)
 
 def main():
+    display_logo()
     signal.signal(signal.SIGINT, exit_cleanly)
     
     parser = argparse.ArgumentParser(description='GraphQL Wordlist Fuzzer')
